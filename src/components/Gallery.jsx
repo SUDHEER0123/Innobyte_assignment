@@ -24,7 +24,7 @@ const Gallery = () => {
     });
   }, []);
   return (
-    <div>
+    <div id="gallary">
       <div className="w-full scrollBehaviour mx-auto flex gap-3 justify-center items-center">
         <p className="font-medium text-[#0c0a09]">GALLERY</p>
         <div className="border border-[#e82574] w-[60px] h-[1px]"></div>

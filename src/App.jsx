@@ -7,6 +7,8 @@ import Footer from './components/Footer'
 import MapCard from "../src/components/Map"
 import Gallery from './components/Gallery'
 import Review from './components/Review'
+import ContactForm from './components/Contact/Contact'
+import Header from './components/Header/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,9 +24,10 @@ function App() {
 
   return (
     <div className='w-full'>
+      <Header/>
       <Review/>
       <Gallery/>
-      
+      <ContactForm/>
     <MapCard/>
     <Footer/>
     </div>

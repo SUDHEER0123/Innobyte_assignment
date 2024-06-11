@@ -17,7 +17,7 @@ const Footer = () => {
   //   });
   
   return (
-    <div className="bg-black text-white w-full flex flex-col justify-center items-center lg:px-28 px-10 pt-10 pb-4 gap-8">
+    <div className="bg-black text-white w-full flex flex-col justify-center items-center lg:px-28 px-10 pt-10 pb-4 gap-8" id="footer">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 md:gap-4">
         <div className="mb-8 md:mb-4 font-medium text-xl text-white flex flex-col gap-10 justify-start items-start">
           <div className="max-w-[120px] font-normal text-md text-white text-left">
